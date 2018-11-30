@@ -19,9 +19,7 @@
    `expo start`
 
 
-**개발 참고 사이트**
-https://facebook.github.io/react-native/docs/getting-started
-
-https://github.com/react-native-community/react-native-tab-view
-
-https://react-native-training.github.io/react-native-elements/
+**개발 참고 사이트**  
+https://facebook.github.io/react-native/docs/getting-started  
+https://github.com/react-native-community/react-native-tab-view  
+https://react-native-training.github.io/react-native-elements/  
