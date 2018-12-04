@@ -14,10 +14,10 @@
    https://docs.expo.io/versions/latest/
 6. 모듈 설치  
    `yarn add prop-types`  
-   `yarn add react-native-tab-view`
-   `yarn add react-native-drawer`
-   `yarn add react-navigation`
-   `react-native-paper`
+   `yarn add react-native-tab-view`  
+   `yarn add react-native-drawer`  
+   `yarn add react-navigation`  
+   `react-native-paper`  
 7. 테스트 서버 시작  
    `expo start`
 
