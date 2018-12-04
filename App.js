@@ -1,10 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View, StatusBar } from 'react-native';
-import ViewTabs from './ViewTabs';
+import { Header, } from 'react-native-elements';
+import News from './tab/NewsTabs';
 import styles from './style/AppStyle';
+import SideMenu from './common/side/SideMenu';
+import { DrawerNavigator } from 'react-navigation';
+import CustomFooter from './common/footer/Footer';
 
 
 const removeStatusBar = true;
+
 export default class App extends React.Component {
   state = {
     other: {
@@ -12,23 +17,31 @@ export default class App extends React.Component {
         removeStatusBar: removeStatusBar,
       },
     },
-    tabNavigator: {
-      index: 0,
-      routes: [
-        { key: 'first', title: 'First' },
-        { key: 'second', title: 'Second' },
-        { key: 'third', title: 'Third' },
-      ],
-      value: 0,
-    },
   };
   render() {
     return (
       <View style={styles.container}>
         <StatusBar 
-          hidden={this.state.other.statusBarRel.removeStatusBar}
+          // hidden={this.state.other.statusBarRel.removeStatusBar}
+          barStyle="light-content"
         />
-        <ViewTabs></ViewTabs>
+        <Header 
+          leftComponent={{icon: 'menu', color: '#fff' }}
+          centerComponent={{ text: 'Haru', style: styles.headerCenterComponent }}
+          rightComponent={{ icon: 'home', color: '#fff' }}
+          backgroundColor='#000'
+          containerStyle={{
+            flex: 1,
+            height: 400,
+          }}
+          leftContainerStyle={{ backgroundColor: '#fff '}}
+        >
+        </Header>
+        {/* <NewsTabs style={{zIndex: 1, position: 'absolute'}}></NewsTabs> */}
+        {/* <View style={styles.footer}>
+          <Text style={styles.footerPaintMark}>Haru</Text>
+        </View> */}
+        <CustomFooter style={{zIndex: 100, position: 'absolute'}}></CustomFooter>
       </View>
     );
   }
