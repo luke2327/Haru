@@ -17,7 +17,7 @@
    `yarn add react-native-tab-view`  
    `yarn add react-native-drawer`  
    `yarn add react-navigation`  
-   `react-native-paper`  
+   `yarn add react-native-paper`  
 7. 테스트 서버 시작  
    `expo start`
 
