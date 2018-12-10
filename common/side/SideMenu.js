@@ -3,15 +3,26 @@ import { StyleSheet, Text, View } from 'react-native';
 import Drawer from 'react-native-drawer';
 import SideMenuContent from './SideMenuContent';
 
+/**
+ * class : SideMenu
+ * extends : Component
+ * description : 원래 헤더 왼쪽 부분 버튼컴포넌트에 Drawer메뉴를 추가하려 했으나 현재 보류 중 입니다.
+ */
 export default class SideMenu extends Component{
   constructor(){
     super();
     this.closeControlPanel = this.closeControlPanel.bind(this);
     this.openControlPanel = this.openControlPanel.bind(this);
   };
+  /**
+   * Drawer컴포넌트의 닫는 동작을 구현
+   */
   closeControlPanel = () => {
     this._drawer.close()
   };
+  /**
+   * Drawer컴포넌트의 여는 동작을 구현
+   */
   openControlPanel = () => {
     this._drawer.open()
   };

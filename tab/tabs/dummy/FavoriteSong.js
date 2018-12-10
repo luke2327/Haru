@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { LinearGradient } from 'expo';
-import SideMenu from '../../common/side/SideMenu'
 
-export default class FiestTab extends Component{
+export default class FavoriteSong extends Component{
     render(){
         return(
             <LinearGradient 
@@ -34,7 +33,6 @@ export default class FiestTab extends Component{
                 <Text style={{fontSize: 25, paddingLeft: 10, fontWeight: 'bold', paddingBottom: 20, color: '#fff'}}>
                 8. スパークル
                 </Text>
-                {/* <SideMenu></SideMenu> */}
             </LinearGradient>
         );        
     }

@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAEE8C6D1BFA505400F65E0D /* RCTInAppBrowser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EAEE8C6C1BFA505400F65E0D /* RCTInAppBrowser.h */; };
+		EAEE8C6F1BFA505400F65E0D /* RCTInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEE8C6E1BFA505400F65E0D /* RCTInAppBrowser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EAEE8C671BFA505400F65E0D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				EAEE8C6D1BFA505400F65E0D /* RCTInAppBrowser.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA834BA51BFA5A8E0071AB44 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		EA834BA61BFA5A8E0071AB44 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		EA834BA71BFA5A8E0071AB44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		EA834BA81BFA5A8E0071AB44 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		EA834BA91BFA5A8E0071AB44 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		EA834BAA1BFA5A8E0071AB44 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		EA834BAB1BFA5A8E0071AB44 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		EA834BAC1BFA5A8E0071AB44 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		EA834BAD1BFA5A8E0071AB44 /* SVModalWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVModalWebViewController.h; sourceTree = "<group>"; };
+		EA834BAE1BFA5A8E0071AB44 /* SVModalWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVModalWebViewController.m; sourceTree = "<group>"; };
+		EA834BAF1BFA5A8E0071AB44 /* SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVWebViewController.bundle; sourceTree = "<group>"; };
+		EA834BB01BFA5A8E0071AB44 /* SVWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
+		EA834BB11BFA5A8E0071AB44 /* SVWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVWebViewController.m; sourceTree = "<group>"; };
+		EA834BB41BFA5A8E0071AB44 /* SVWebViewControllerActivityChrome-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad.png"; sourceTree = "<group>"; };
+		EA834BB51BFA5A8E0071AB44 /* SVWebViewControllerActivityChrome-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad@2x.png"; sourceTree = "<group>"; };
+		EA834BB61BFA5A8E0071AB44 /* SVWebViewControllerActivityChrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivityChrome.h; sourceTree = "<group>"; };
+		EA834BB71BFA5A8E0071AB44 /* SVWebViewControllerActivityChrome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivityChrome.m; sourceTree = "<group>"; };
+		EA834BB81BFA5A8E0071AB44 /* SVWebViewControllerActivityChrome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome@2x.png"; sourceTree = "<group>"; };
+		EA834BBA1BFA5A8E0071AB44 /* SVWebViewControllerActivitySafari-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad.png"; sourceTree = "<group>"; };
+		EA834BBB1BFA5A8E0071AB44 /* SVWebViewControllerActivitySafari-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad@2x.png"; sourceTree = "<group>"; };
+		EA834BBC1BFA5A8E0071AB44 /* SVWebViewControllerActivitySafari.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivitySafari.h; sourceTree = "<group>"; };
+		EA834BBD1BFA5A8E0071AB44 /* SVWebViewControllerActivitySafari.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivitySafari.m; sourceTree = "<group>"; };
+		EA834BBE1BFA5A8E0071AB44 /* SVWebViewControllerActivitySafari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari@2x.png"; sourceTree = "<group>"; };
+		EA834BBF1BFA5A8E0071AB44 /* SVWebViewControllerActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivity.h; sourceTree = "<group>"; };
+		EA834BC01BFA5A8E0071AB44 /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivity.m; sourceTree = "<group>"; };
+		EA834BC11BFA5A8E0071AB44 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		EA834BC21BFA5A8E0071AB44 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		EAEE8C691BFA505400F65E0D /* libRCTInAppBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTInAppBrowser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEE8C6C1BFA505400F65E0D /* RCTInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTInAppBrowser.h; sourceTree = "<group>"; };
+		EAEE8C6E1BFA505400F65E0D /* RCTInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTInAppBrowser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAEE8C661BFA505400F65E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA834BA31BFA5A8E0071AB44 /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA834BA41BFA5A8E0071AB44 /* SVWebViewController.strings */,
+				EA834BAD1BFA5A8E0071AB44 /* SVModalWebViewController.h */,
+				EA834BAE1BFA5A8E0071AB44 /* SVModalWebViewController.m */,
+				EA834BAF1BFA5A8E0071AB44 /* SVWebViewController.bundle */,
+				EA834BB01BFA5A8E0071AB44 /* SVWebViewController.h */,
+				EA834BB11BFA5A8E0071AB44 /* SVWebViewController.m */,
+				EA834BB21BFA5A8E0071AB44 /* UIActivities */,
+			);
+			path = SVWebViewController;
+			sourceTree = "<group>";
+		};
+		EA834BB21BFA5A8E0071AB44 /* UIActivities */ = {
+			isa = PBXGroup;
+			children = (
+				EA834BB31BFA5A8E0071AB44 /* Chrome */,
+				EA834BB91BFA5A8E0071AB44 /* Safari */,
+				EA834BBF1BFA5A8E0071AB44 /* SVWebViewControllerActivity.h */,
+				EA834BC01BFA5A8E0071AB44 /* SVWebViewControllerActivity.m */,
+			);
+			path = UIActivities;
+			sourceTree = "<group>";
+		};
+		EA834BB31BFA5A8E0071AB44 /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				EA834BB41BFA5A8E0071AB44 /* SVWebViewControllerActivityChrome-iPad.png */,
+				EA834BB51BFA5A8E0071AB44 /* SVWebViewControllerActivityChrome-iPad@2x.png */,
+				EA834BB61BFA5A8E0071AB44 /* SVWebViewControllerActivityChrome.h */,
+				EA834BB71BFA5A8E0071AB44 /* SVWebViewControllerActivityChrome.m */,
+				EA834BB81BFA5A8E0071AB44 /* SVWebViewControllerActivityChrome@2x.png */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		EA834BB91BFA5A8E0071AB44 /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				EA834BBA1BFA5A8E0071AB44 /* SVWebViewControllerActivitySafari-iPad.png */,
+				EA834BBB1BFA5A8E0071AB44 /* SVWebViewControllerActivitySafari-iPad@2x.png */,
+				EA834BBC1BFA5A8E0071AB44 /* SVWebViewControllerActivitySafari.h */,
+				EA834BBD1BFA5A8E0071AB44 /* SVWebViewControllerActivitySafari.m */,
+				EA834BBE1BFA5A8E0071AB44 /* SVWebViewControllerActivitySafari@2x.png */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+		EAEE8C601BFA505400F65E0D = {
+			isa = PBXGroup;
+			children = (
+				EAEE8C6B1BFA505400F65E0D /* RCTInAppBrowser */,
+				EAEE8C6A1BFA505400F65E0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAEE8C6A1BFA505400F65E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAEE8C691BFA505400F65E0D /* libRCTInAppBrowser.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAEE8C6B1BFA505400F65E0D /* RCTInAppBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EA834BA31BFA5A8E0071AB44 /* SVWebViewController */,
+				EAEE8C6C1BFA505400F65E0D /* RCTInAppBrowser.h */,
+				EAEE8C6E1BFA505400F65E0D /* RCTInAppBrowser.m */,
+			);
+			path = RCTInAppBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAEE8C681BFA505400F65E0D /* RCTInAppBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEE8C721BFA505400F65E0D /* Build configuration list for PBXNativeTarget "RCTInAppBrowser" */;
+			buildPhases = (
+				EAEE8C651BFA505400F65E0D /* Sources */,
+				EAEE8C661BFA505400F65E0D /* Frameworks */,
+				EAEE8C671BFA505400F65E0D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTInAppBrowser;
+			productName = RCTInAppBrowser;
+			productReference = EAEE8C691BFA505400F65E0D /* libRCTInAppBrowser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAEE8C611BFA505400F65E0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DickyT;
+				TargetAttributes = {
+					EAEE8C681BFA505400F65E0D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = EAEE8C641BFA505400F65E0D /* Build configuration list for PBXProject "RCTInAppBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				da,
+				de,
+				"es-ES",
+				es,
+				fr,
+				ja,
+				pt,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = EAEE8C601BFA505400F65E0D;
+			productRefGroup = EAEE8C6A1BFA505400F65E0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAEE8C681BFA505400F65E0D /* RCTInAppBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAEE8C651BFA505400F65E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEE8C6F1BFA505400F65E0D /* RCTInAppBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA834BA41BFA5A8E0071AB44 /* SVWebViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA834BA51BFA5A8E0071AB44 /* da */,
+				EA834BA61BFA5A8E0071AB44 /* de */,
+				EA834BA71BFA5A8E0071AB44 /* en */,
+				EA834BA81BFA5A8E0071AB44 /* es-ES */,
+				EA834BA91BFA5A8E0071AB44 /* es */,
+				EA834BAA1BFA5A8E0071AB44 /* fr */,
+				EA834BAB1BFA5A8E0071AB44 /* ja */,
+				EA834BAC1BFA5A8E0071AB44 /* pt */,
+				EA834BC11BFA5A8E0071AB44 /* zh-Hans */,
+				EA834BC21BFA5A8E0071AB44 /* zh-Hant */,
+			);
+			name = SVWebViewController.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAEE8C701BFA505400F65E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAEE8C711BFA505400F65E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAEE8C731BFA505400F65E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = NO;
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EAEE8C741BFA505400F65E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = NO;
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAEE8C641BFA505400F65E0D /* Build configuration list for PBXProject "RCTInAppBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEE8C701BFA505400F65E0D /* Debug */,
+				EAEE8C711BFA505400F65E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEE8C721BFA505400F65E0D /* Build configuration list for PBXNativeTarget "RCTInAppBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEE8C731BFA505400F65E0D /* Debug */,
+				EAEE8C741BFA505400F65E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAEE8C611BFA505400F65E0D /* Project object */;
+}

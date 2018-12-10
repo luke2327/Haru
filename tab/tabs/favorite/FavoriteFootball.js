@@ -1,30 +1,36 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, ScrollView, ImageBackground, Dimensions, TouchableOpacity, Linking, } from 'react-native';
-import { LinearGradient } from 'expo';
-import NewsList from '../../static/NewsList';
-import styles from '../style/SecondTabStyle';
+import { Alert, StyleSheet, Text, View, ScrollView, ImageBackground, Dimensions, TouchableOpacity, Linking, } from 'react-native';
+import { LinearGradient, WebBrowser } from 'expo';
+import NewsList from '../../../static/NewsList';
+import VodList from '../../../static/VideoList';
+import styles from '../../style/contentsListStyle';
+import getItem from '../../../common/function/getItem';
+import InAppBrowser from 'react-native-inappbrowser-reborn';
 
-export default class SecondTab extends Component{
+export default class FavoriteFootball extends Component{
   render(){
-    const newsList = NewsList.news
+    const newsList = NewsList
+    const vodList = VodList
+    const useFunction = new getItem()
+    var favoriteFootball = []
+    
+    favoriteFootball = useFunction._getMergeTwoJson(newsList, vodList)
     return(
       <ScrollView
-        style={{backgroundColor: '#000'}}
+        style={styles.ScrollViewBackground}
       >
         <LinearGradient 
-          colors={["#000C40", "#000000"]} 
+          colors={["#000000", "#000000"]} 
           style={styles.container}
         >
           {
-            newsList.map((item, i) => (
+            favoriteFootball.map((item, i) => (
               <TouchableOpacity
-                onPress={() => Linking.openURL(item.link)}
+                onPress={() => useFunction._handleOnInAppBrowser(item.link)}
                 key={i}
               >
                 <ImageBackground
-                  style={[styles.imageBackgroundBasic,{
-                    width: Dimensions.get('window').width-20,
-                  }]}
+                  style={styles.imageBackgroundBasic}
                   imageStyle={styles.imageBackgroundStyle}
                   source={{uri: item.image_link}}
                 >

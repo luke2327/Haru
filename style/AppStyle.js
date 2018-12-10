@@ -6,15 +6,6 @@ export default StyleSheet.create({
     backgroundColor: '#000',
     justifyContent:'center',
   },
-  header: {
-    flex: 1,
-    backgroundColor: '#000',
-  },
-  headerCenterComponent: {
-    color: '#fff', 
-    fontSize: 20, 
-    fontWeight: 'bold',
-  },
   footer: {
     borderTopWidth: 1,
     borderTopColor: '#fff',
@@ -26,5 +17,9 @@ export default StyleSheet.create({
     textAlign: 'center',
     fontSize: 20,
     fontWeight: 'bold'
+  },
+  customFooterInit: {
+    zIndex: 100,
+    position: 'absolute',
   }
 });

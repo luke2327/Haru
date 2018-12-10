@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 export default StyleSheet.create({
   container: {
@@ -6,7 +6,11 @@ export default StyleSheet.create({
     backgroundColor: '#000',
     justifyContent:'center',
   },
+  ScrollViewBackground: {
+    backgroundColor: '#000',
+  },
   imageBackgroundBasic: {
+    width: Dimensions.get('window').width - 20,
     height: 150,
     marginRight: 4,
     backgroundColor: '#fff',

@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 import { Text, View, ScrollView, ImageBackground, Dimensions, TouchableOpacity, Linking, } from 'react-native';
 import { LinearGradient } from 'expo';
 import VideoList from '../../../static/VideoList.json';
-import styles from '../../style/SecondTabStyle';
+import styles from '../../style/contentsListStyle';
 
-export default class SecondTab extends Component{
+/**
+ * class : viewFavoriteVideo
+ * extends : Component
+ * description : 탭 화면 중 관심 VOD를 보여주는 컴포넌트
+ */
+export default class viewFavoriteVideo extends Component{
   render(){
     const videoList = VideoList.vods
     return(

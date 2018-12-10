@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
 import {Text,View,StyleSheet} from 'react-native';
 
-
+/**
+ * class : SideBarContent
+ * extends : Component
+ * description : SideMenu컴포넌트의 Content정보를 위한 컴포넌트
+ */
 export default class SideBarContent extends Component{
   render()
   {
