@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { LinearGradient } from 'expo';
 
 export default class FavoriteSong extends Component{
     render(){
         return(
-            <LinearGradient 
-                colors={["#00C6FB", "#005BEA"]} 
+            <View
                 style={styles.container}
             >
                 <Text style={{fontSize: 25, paddingLeft: 10, fontWeight: 'bold', paddingBottom: 20, color: '#fff'}}>
@@ -33,7 +31,7 @@ export default class FavoriteSong extends Component{
                 <Text style={{fontSize: 25, paddingLeft: 10, fontWeight: 'bold', paddingBottom: 20, color: '#fff'}}>
                 8. スパークル
                 </Text>
-            </LinearGradient>
+            </View>
         );        
     }
 }
@@ -42,5 +40,6 @@ const styles = StyleSheet.create({
     container: {
         flex:1,
         paddingTop: 10,
+        backgroundColor: '#000',
     }
 });

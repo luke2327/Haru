@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Alert } from 'react-native';
-import { WebBrowser } from 'expo';
 
 /**
  * 자주 (여러 곳)에서 쓰이는 기능들을 모아놓은 파일.
@@ -49,7 +47,7 @@ export default class getItem extends Component{
   /**
    * 주소를 파라메터로 받아 인앱 브라우저로 띄워주는 함수
    */
-  _handleOnInAppBrowser = async (link='') => (
-    await WebBrowser.openBrowserAsync(link)
-    )
+  // _handleOnInAppBrowser = async (link='') => (
+  //   await WebBrowser.openBrowserAsync(link)
+  //   )
 }

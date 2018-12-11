@@ -1,36 +1,41 @@
-import React from 'react';
-import { View, StatusBar } from 'react-native';
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow
+ */
+
+import React, {Component} from 'react';
+import {Platform, StyleSheet, Text, View, AppRegistry} from 'react-native';
 import CustomHeader from './common/header/Header';
-import styles from './style/AppStyle';
-import SideMenu from './common/side/SideMenu';
-import { DrawerNavigator } from 'react-navigation';
 import CustomFooter from './common/footer/Footer';
 
-const removeStatusBar = true;
-/**
-  * class : App
-  * extends : Component
-  * description : 모든 컴포넌트가 시작되는 곳
-  * 커스텀 헤더 및 푸터 컴포넌트가 있다.
-**/
+const instructions = Platform.select({
+  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
+  android:
+    'Double tap R on your keyboard to reload,\n' +
+    'Shake or press menu button for dev menu',
+});
+
+type Props = {};
 export default class App extends React.Component {
-  state = {
-    other: {
-      statusBarRel: {
-        removeStatusBar: removeStatusBar,
-      },
-    },
-  };
   render() {
     return (
       <View style={styles.container}>
-        <StatusBar
-          // hidden={this.state.other.statusBarRel.removeStatusBar}
-          barStyle="light-content"
-        />
+        {/* <View style={{backgroundColor: '#3078ff', width: 100000, height: 100000}}></View> */}
         <CustomHeader></CustomHeader>
         <CustomFooter style={styles.customFooterInit}></CustomFooter>
       </View>
     );
   }
 }
+
+AppRegistry.registerComponent('App', () => App);
+// AppRegistry.runApplication('App', { rootTag: document.getElementById('react-root') });
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  }
+});

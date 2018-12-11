@@ -3,11 +3,11 @@ import { StyleSheet, Dimensions } from 'react-native';
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
+    backgroundColor: '#fff',
     justifyContent:'center',
   },
   ScrollViewBackground: {
-    backgroundColor: '#000',
+    backgroundColor: '#fff',
   },
   imageBackgroundBasic: {
     width: Dimensions.get('window').width - 20,

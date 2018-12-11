@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Text, View, ScrollView, ImageBackground, Dimensions, TouchableOpacity, Linking, } from 'react-native';
-import { LinearGradient } from 'expo';
 import VideoList from '../../../static/VideoList.json';
 import styles from '../../style/contentsListStyle';
 
@@ -16,15 +15,14 @@ export default class viewFavoriteVideo extends Component{
       <ScrollView
         style={{backgroundColor: '#000'}}  
       >
-        <LinearGradient 
-          colors={["#000C40", "#000000"]} 
+        <View
           style={styles.container}
         >
           {
             videoList.map((item, i) => (
               
               <TouchableOpacity
-                onPress={() => Linking.openURL(item.link)}
+                // onPress={() => Linking.openURL(item.link)}
                 key={i}
               >
                 <ImageBackground
@@ -51,7 +49,7 @@ export default class viewFavoriteVideo extends Component{
               </TouchableOpacity>
             ))
           }
-        </LinearGradient>
+        </View>
       </ScrollView>
     );        
   }
