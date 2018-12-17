@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import { View, Text, ScrollView, TouchableOpacity, StatusBar } from 'react-native';
-import { Actions } from 'react-native-router-flux';
-import NewsList from 'src/assets/static/NewsList';
+import { View, StatusBar } from 'react-native';
 import CustomHeader from 'src/common/header/Header';
-import FavoriteFootball from 'src/tabs/favorite/FavoriteFootball';
-import MyFeed from 'src/my-feed/MyFeed';
 import CustomFooter from 'src/common/footer/Footer';
 
 export default class RenderBase extends React.Component{

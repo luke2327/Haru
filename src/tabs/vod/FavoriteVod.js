@@ -20,8 +20,8 @@ export default class FavoriteVod extends React.Component{
       }
     })
     return(
-      <ScrollView>
-        <View style={styles.container}>
+      <ScrollView style={styles.ScrollViewBackground}>
+        <View>
           {
             VodList.vods.map((item, i) => (
               <TouchableOpacity 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Dimensions } from 'react-native';
 import { TabView, TabBar, SceneMap } from 'react-native-tab-view';
+import I18n from 'react-native-i18n';
 import FavoriteFootball from 'src/tabs/favorite/FavoriteFootball';
 
 const initalLayout = {
@@ -12,9 +13,9 @@ export default class News extends React.Component{
   state = {
     index: 0,
     routes: [
-      { key: 'favorite', title: '관심 뉴스' },
-      { key: 'top', title: '주요 뉴스'},
-      { key: 'football', title: '축구'}
+      { key: 'favorite', title: I18n.t('H0011') },
+      { key: 'top', title: I18n.t('H0010') },
+      { key: 'football', title: I18n.t('H0012') }
     ]
   };
 
@@ -22,7 +23,7 @@ export default class News extends React.Component{
   _renderHeader = props =>
     <TabBar {...props}
       indicatorStyle={{backgroundColor: 'transparent'}}
-      tabStyle={{backgroundColor: '#000'}}
+      tabStyle={{backgroundColor: '#000', width: '100%'}}
       onTabPress={console.log(this.state.index)}
     />;
   _renderScene = SceneMap({

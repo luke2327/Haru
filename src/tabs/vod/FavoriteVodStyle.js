@@ -7,7 +7,7 @@ export default StyleSheet.create({
     justifyContent:'center',
   },
   ScrollViewBackground: {
-    backgroundColor: '#fff',
+    backgroundColor: '#000',
   },
   imageBackgroundBasic: {
     width: Dimensions.get('window').width - 20,
