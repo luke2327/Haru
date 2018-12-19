@@ -13,9 +13,9 @@ export default class News extends React.Component{
   state = {
     index: 0,
     routes: [
-      { key: 'favorite', title: I18n.t('H0011') },
-      { key: 'top', title: I18n.t('H0010') },
-      { key: 'football', title: I18n.t('H0012') }
+      { key: 'favorite', title: I18n.t('H0008') },
+      { key: 'top', title: I18n.t('H0007') },
+      { key: 'football', title: I18n.t('H0014') }
     ]
   };
 
@@ -23,8 +23,11 @@ export default class News extends React.Component{
   _renderHeader = props =>
     <TabBar {...props}
       indicatorStyle={{backgroundColor: 'transparent'}}
-      tabStyle={{backgroundColor: '#000', width: '100%'}}
-      onTabPress={console.log(this.state.index)}
+      tabStyle={{backgroundColor: '#000', margin: 0}}
+      labelStyle={{ fontWeight: 'bold', textAlign: 'center', textTransform: 'capitalize'}}
+      style={{backgroundColor: '#000'}}
+      scrollEnabled={true}
+      pressOpacity = {0.8}
     />;
   _renderScene = SceneMap({
     favorite: FavoriteFootball,

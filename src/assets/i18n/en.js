@@ -1,7 +1,3 @@
-import React, { Component } from 'react';
-import { View, Text, WebView, StatusBar } from 'react-native';
-import I18n from 'react-native-i18n';
-
 export default {
   H0001: 'Hi!',
   H0002: 'Test',

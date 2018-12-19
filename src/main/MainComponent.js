@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Scene, Router } from 'react-native-router-flux';
 import RenderBase from './RenderBase';
 import RenderWebView from './RenderWebView';
+import RenderYoutube from './RenderYoutube';
 import SideMenu from 'src/common/drawer/SideMenu';
 import I18n from 'react-native-i18n';
 
@@ -35,6 +36,7 @@ export default class MainComponent extends React.Component{
               component={RenderWebView}
               title="RenderTest3"
             />
+            <Scene key="RenderYoutube" component={RenderYoutube} title="Youtube" />
           </Scene>
         </Scene>
       </Router>

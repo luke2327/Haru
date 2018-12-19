@@ -13,11 +13,11 @@ export default class Video extends React.Component{
   state = {
     index: 0,
     routes: [
-      { key: 'favorite', title: I18n.t('H0009') },
-      { key: 'dummy_1', title: I18n.t('H0010') },
-      { key: 'dummy_2', title: I18n.t('H0012') },
-      { key: 'dummy_3', title: I18n.t('H0013') },
-      { key: 'dummy_4', title: I18n.t('H0014') },
+      { key: 'favorite', title: I18n.t('H0011') },
+      { key: 'dummy_1', title: I18n.t('H0012') },
+      { key: 'dummy_2', title: I18n.t('H0014') },
+      { key: 'dummy_3', title: I18n.t('H0015') },
+      { key: 'dummy_4', title: I18n.t('H0016') },
     ]
   };
 
@@ -25,9 +25,12 @@ export default class Video extends React.Component{
 
   _renderHeader = props =>
     <TabBar {...props}
-      indicatorStyle={{background: 'transparent'}}
-      tabStyle={{backgroundColor: '#000', width: '100%'}}
-      onTabPress={console.log(this.state.index)}
+      indicatorStyle={{backgroundColor: 'transparent'}}
+      tabStyle={{backgroundColor: '#000', margin: 0}}
+      labelStyle={{ fontWeight: 'bold', textAlign: 'center', textTransform: 'capitalize'}}
+      style={{backgroundColor: '#000'}}
+      scrollEnabled={true}
+      pressOpacity = {0.8}
     />;
 
   _renderScene = SceneMap({
