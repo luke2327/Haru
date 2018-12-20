@@ -26,8 +26,8 @@
        `yarn add react-native-paper`  
        `yarn add react-native-i18n`  
        `yarn add react-native-router-flux`  
-       `yarn add react-native-vector-icons` 
-       `yarn add react-native-gesture-handler` 
+       `yarn add react-native-vector-icons`  
+       `yarn add react-native-gesture-handler`  
 
 6. 테스트 서버 시작  
    `react-native run-android`  

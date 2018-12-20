@@ -3,7 +3,6 @@ import {
   View, 
   Text, ScrollView, 
   ImageBackground, 
-  Dimensions, 
   TouchableOpacity } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import VodList from 'src/assets/static/VodList';

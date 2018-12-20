@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BottomNavigation, Text } from 'react-native-paper';
+import { BottomNavigation } from 'react-native-paper';
 import I18n from 'react-native-i18n';
 import News from 'src/news/News';
 import MyFeed from 'src/my-feed/MyFeed';

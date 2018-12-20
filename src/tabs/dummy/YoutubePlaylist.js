@@ -4,12 +4,9 @@ import {
   Text,
   ScrollView,
   ImageBackground,
-  Dimensions,
-  FlatList,
   ActivityIndicator,
   TouchableOpacity } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import VodList from 'src/assets/static/VodList';
 import getYoutubeLink from 'src/functions/getYoutubeLink';
 import styles from './YoutubePlaylistStyle';
 
@@ -55,8 +52,7 @@ export default class YoutubePlaylist extends React.Component{
               this.state.dataSource.map((item, i) => (
                 <TouchableOpacity 
                 key={i} 
-                onPress={() => Actions.RenderWebView({text: useFunction._getYoutubeLink(item.id.videoId)})}
-                // onPress={() => Actions.RenderYoutube()}
+                onPress={() => Actions.RenderYoutube({text: useFunction._getYoutubeLink(item.id.videoId)})}
                 >
                   <ImageBackground
                     style={styles.imageBackgroundBasic}

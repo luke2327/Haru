@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Text } from 'react-native';
-import { Card, ListItem, Button, Icon, Header } from 'react-native-elements';
-import { Actions } from 'react-native-router-flux';
+import { Header } from 'react-native-elements';
 import styles from './HeaderStyle';
 import TestButton from './TestButton';
 

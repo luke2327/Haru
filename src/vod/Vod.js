@@ -13,8 +13,8 @@ export default class Video extends React.Component{
   state = {
     index: 0,
     routes: [
-      { key: 'favorite', title: I18n.t('H0011') },
-      { key: 'dummy_1', title: I18n.t('H0012') },
+      { key: 'favorite', title: I18n.t('H0010') },
+      { key: 'dummy_1', title: I18n.t('H0011') },
       { key: 'dummy_2', title: I18n.t('H0014') },
       { key: 'dummy_3', title: I18n.t('H0015') },
       { key: 'dummy_4', title: I18n.t('H0016') },

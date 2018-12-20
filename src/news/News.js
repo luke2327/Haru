@@ -13,8 +13,8 @@ export default class News extends React.Component{
   state = {
     index: 0,
     routes: [
-      { key: 'favorite', title: I18n.t('H0008') },
-      { key: 'top', title: I18n.t('H0007') },
+      { key: 'favorite', title: I18n.t('H0007') },
+      { key: 'top', title: I18n.t('H0008') },
       { key: 'football', title: I18n.t('H0014') }
     ]
   };
