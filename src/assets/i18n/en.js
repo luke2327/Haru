@@ -1,0 +1,26 @@
+export default {
+  H0001: 'Hi!',
+  H0002: 'Test',
+  H0003: 'All',
+  H0004: 'My Feed',
+  H0005: 'Scores/Fixtures',
+  H0006: 'News',
+  H0007: 'Favorites',
+  H0008: 'Top',
+  H0009: 'Video',
+  H0010: 'Favorites',
+  H0011: 'Top',
+  H0012: 'Fan Zone',
+  H0013: 'Favorites',
+  H0014: 'Football',
+  H0015: 'Basketball',
+  H0016: 'Baseball',
+
+  D0001: 'The Premier League',
+  D0002: 'Bundesliga',
+  D0003: 'Ligue 1',
+
+  Z0001: 'Setting',
+  Z0002: 'Basic',
+  Z0003: 'Language',
+};
